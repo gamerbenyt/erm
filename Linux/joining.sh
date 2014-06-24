@@ -62,8 +62,8 @@ autoCore()
 	cd ..
 	cd ..
 	cd ..
-	cp "JarProject/backBone/tempFolder/app/finished.jar" JarProject
-	cd JarProject
+	cp "Linux/backBone/tempFolder/app/finished.jar" Linux
+	cd Linux
 	cd backBone
 	rm -rf tempFolder
 	cd ..
