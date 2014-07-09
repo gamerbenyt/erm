@@ -450,5 +450,9 @@ manaull()
 if [ "$1" != "" ]
 then
 	auto "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8"
-fi
+elif [ "$1" == "help" ]
+then
+    Help
+else
 	manaull "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8"
+fi
